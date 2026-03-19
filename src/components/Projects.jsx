@@ -7,7 +7,7 @@ const projects = [
     title: 'Find Your Scholarship (FYS) Web App',
     description: 'Scholarship web application prototype designed to help students find scholarship online.',
     tags: ['FIGMA'],
-    link: 'https://www.figma.com/proto/z3FWb3d5ydmN2aff000pCR/FOR-DEFFENCE?node-id=21-5848&viewport=323%2C549%2C0.07&t=u5hAxADRGqS3cEGP-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=21%3A5848&page-id=0%3A1',
+    link: 'https://www.figma.com/design/z3FWb3d5ydmN2aff000pCR/FOR-DEFFENCE?node-id=0-1&t=UWQhxl3jNpGRv2nU-1',
     github: '#',
   },
   {

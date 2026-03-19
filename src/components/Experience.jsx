@@ -4,16 +4,22 @@ import { motion } from 'framer-motion';
 
 const experienceData = [
   {
-    year: '2025',
+    year: ' November 2025',
     title: 'Find Your Scholarship | School Project',
     institution: 'Team Project at USJR',
     description: 'Designed and prototyped user interfaces with a focus on usability and accessibility. Created wireframes, mockups, and interactive prototypes using Figma and Canva. Applied UX principles to improve navigation, layout, and overall user experience. Collaborated with peers and stakeholders to iterate and present effective solutions.',
   },                    
   {
-    year: '2021',
-    title: 'Summer Internship',
-    institution: 'Local Tech Firm',
-    description: 'Assisted in QA testing and basic front-end development.',
+    year: 'June 2025',
+    title: 'Console Game | Botcamp Training Project',
+    institution: 'Team Project at USJ-R',
+    description: 'Conducted manual and regression testing on a student-developed website, validating workflows and ensuring stability after updates. Designed the user interface and database for clarity and balance, ensured proper alignment of elements, and conducted manual testing on a student-developed website to identify functional and usability issues',
+  },
+  {
+    year: 'April 2025',
+    title: 'Console Game | Botcamp Training Project',
+    institution: 'Team Project at USJ-R',
+    description: ' Designed the user interface of the web app. Collaborated with peers and stakeholders to iterate and present solutions. Conducted manual testing to ensure the project work as what we expected it to behave or functioned. Checks if the system works according to the requirements or specifications.',
   },
 ];
 
