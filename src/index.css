@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg: #0f172a;
+  --surface: #0b1220;
+  --muted: #94a3b8;
+  --text: #e6eef8;
+  --accent: #2563eb;
+  --accent-2: #93c5fd;
+  --glass: rgba(255,255,255,0.03);
+
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color-scheme: dark;
+
+  color: var(--text);
+  background-color: var(--bg);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: var(--accent-2);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+  color: var(--accent-2);
+}
+
+h3 {
+  font-size: 1.125rem;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: var(--accent);
+  color: white;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(37,99,235,0.16);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 3px solid rgba(147,197,253,0.25);
+  outline-offset: 2px;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 88px;
+  padding: 3rem 0;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.card {
+  background: var(--surface);
+  border-radius: 12px;
+  padding: 1rem;
+}
+/* debug utilities */
+.debug {
+  color: #ffffff;
+  background: #2563eb;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+section {
+  border: 1px solid rgba(255,255,255,0.1);
+}

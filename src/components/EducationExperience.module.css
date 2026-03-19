@@ -1,0 +1,129 @@
+.section {
+  background-color: #0f172a;
+  color: #f8fafc;
+  padding: 4rem 1rem;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  color: #93c5fd;
+  margin-bottom: 2rem;
+}
+
+.timeline {
+  position: relative;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #2563eb;
+  transform: translateX(-50%);
+}
+
+.item {
+  position: relative;
+  width: 100%;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+}
+
+.item:nth-child(odd) {
+  left: 0;
+}
+
+.item:nth-child(even) {
+  left: 50%;
+}
+
+.year {
+  font-weight: bold;
+  color: #60a5fa;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+.content {
+  background-color: #1e293b;
+  padding: 1.5rem 2rem;
+  border-radius: 0.75rem;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+  white-space: normal;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item:hover .content {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* ensure titles/institutions align center inside */
+.title,
+.institution,
+.desc,
+.year {
+  text-align: center;
+}
+
+/* ensure the item container itself doesn't allow children to escape */
+.item {
+  position: relative;
+  width: 100%;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* ensure description text doesn’t overflow */
+.desc {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.35rem;
+  color: #f8fafc;
+}
+
+.institution {
+  font-size: 0.9rem;
+  color: #cbd5e1;
+  margin-top: 0.25rem;
+}
+
+.desc {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #e2e8f0;
+}
+
+@media (min-width: 768px) {
+  .item {
+    width: 50%;
+  }
+  .item:nth-child(odd) {
+    left: 0;
+    text-align: right;
+    padding-right: 4rem;
+  }
+  .item:nth-child(even) {
+    left: 50%;
+    text-align: left;
+    padding-left: 4rem;
+  }
+}
