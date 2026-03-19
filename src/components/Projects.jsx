@@ -14,7 +14,7 @@ const projects = [
     title: 'TodoList Mobile App',
     description: 'Simple todo list with with friendly user design that will help users make a productive day.',
     tags: ['Figma'],
-    link: 'https://www.figma.com/proto/0tlmQjAUZDCXqaXreu1Vu6/todolist?node-id=36-235&p=f&viewport=349%2C278%2C0.05&t=ctw6Y2O9HSnNcl2B-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=36%3A235&show-proto-sidebar=1&page-id=0%3A1',
+    link: 'https://www.figma.com/design/0tlmQjAUZDCXqaXreu1Vu6/todolist?node-id=0-1&t=GOMvU5gGEEGCHw8n-1',
     github: '#',
   },
   {
