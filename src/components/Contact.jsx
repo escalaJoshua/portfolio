@@ -40,8 +40,8 @@ const Contact = () => {
           </p>
           <p>
             <strong>Email:</strong>{' '}
-            <a href="mailto:joshua.escaa.24@usjr.edu.ph">
-              joshua.escaa.24@usjr.edu.ph
+            <a href="mailto:escalajoshua04@gmail.com">
+              escalajoshua04@gmail.com
             </a>
           </p>
           <div className={styles.socials}>
