@@ -38,45 +38,56 @@ const certs = [
     image: getImage('wireframes.jpg'),
   },
   {
-    title: 'Career Talks with Marivel Deodores, IT and digital Operations, and Site Tour.',
+    title: 'Technical Fundamentals in IT Support.',
     link: '#',
     image: getImage('iT_Support.jpg'),
   },
   {
-    title: 'Career Talks with Marivel Deodores, IT and digital Operations, and Site Tour.',
+    title: 'Career Exploration and Planning for the Future and What is Personal Branding.',
     link: '#',
-    image: getImage('.jpg'),
+    image: getImage('Career_Exploration.jpg'),
   },
   {
-    title: 'Career Talks with Marivel Deodores, IT and digital Operations, and Site Tour.',
+    title: 'Campus to Corporate: A Glimpse of Reality and Public Speaking.',
     link: '#',
-    image: getImage('.jpg'),
+    image: getImage('Campus_Corporate.jpg'),
   },
   {
-    title: 'Career Talks with Marivel Deodores, IT and digital Operations, and Site Tour.',
+    title: 'Presentation Skills and Fostering Respect Language & Behavior Toward People with Disabilitie.',
     link: '#',
-    image: getImage('.jpg'),
+    image: getImage('Presentation.jpg'),
   },
   {
-    title: 'Career Talks with Marivel Deodores, IT and digital Operations, and Site Tour.',
+    title: 'Conduct of SRHR,SOGIESC, and CSE Training / Seminars for Future Professionals.',
     link: '#',
-    image: getImage('.jpg'),
+    image: getImage('future professionals.jpg'),
   },
   {
-    title: 'Career Talks with Marivel Deodores, IT and digital Operations, and Site Tour.',
+    title: 'Completed the YOUTH EMPOWERMENT SESSIONS: level 1',
     link: '#',
-    image: getImage('.jpg'),
+    image: getImage('completion.jpg'),
   },
   {
-    title: 'Career Talks with Marivel Deodores, IT and digital Operations, and Site Tour.',
+    title: 'Branding and Executive Presence.',
     link: '#',
-    image: getImage('.jpg'),
+    image: getImage('Branding.jpg'),
   },
   {
+    title: 'Effective Writing Skills and Youv`e Got This: Fueling Your Confidence.',
+    link: '#',
+    image: getImage('effective_writing.jpg'),
+  },
+   {
     title: 'Career Talks with Marivel Deodores, IT and digital Operations, and Site Tour.',
     link: '#',
-    image: getImage('.jpg'),
+    image: getImage('Career talks.jpg'),
   },
+  {
+    title: 'Business Communication Etiquette & Social Media Training and Self-Defense.',
+    link: '#',
+    image: getImage('Etiquette.jpg'),
+  },
+  
 ];
 
 const Certificates = () => {
