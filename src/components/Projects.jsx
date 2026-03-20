@@ -18,10 +18,10 @@ const projects = [
     github: '#',
   },
   {
-    title: 'Simple Calculator',
-    description: 'Basic calculator with a clean and intuitive interface.',
-    tags: ['JavaScript', 'HTML', 'CSS'],
-    link: '#',
+    title: 'Sample Portfolio',
+    description: 'Sample portfolio website, designs to showscase the artistics of the users',
+    tags: ['FIGMA'],
+    link: 'https://www.figma.com/design/7DRx79Q5kKRpGZYwl0Idy6/sample-portfolio?node-id=0-1&t=yEtB5JvQR9KxCF2k-1',
     github: '#',
   },
 ];
